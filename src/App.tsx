@@ -122,9 +122,9 @@ export default function App() {
       <div className="relative bg-red-600 h-8 flex items-center overflow-hidden whitespace-nowrap border-b border-white/20 z-50">
         <div className="flex animate-marquee absolute">
           <div className="flex whitespace-nowrap gap-x-8 text-[11px] font-mono font-black tracking-widest text-white uppercase py-1">
-            <span>$DBG DAT BIH GAH • OFFICIAL SOLANA TOKEN • DEV IS IN THE VIDEO • 100% COMMUNITY OWNED • DAT BIH GAH</span>
-            <span>$DBG DAT BIH GAH • OFFICIAL SOLANA TOKEN • DEV IS IN THE VIDEO • 100% COMMUNITY OWNED • DAT BIH GAH</span>
-            <span>$DBG DAT BIH GAH • OFFICIAL SOLANA TOKEN • DEV IS IN THE VIDEO • 100% COMMUNITY OWNED • DAT BIH GAH</span>
+            <span>$DATBIHGAH • OFFICIAL SOLANA TOKEN • DEV IS IN THE VIDEO • 100% COMMUNITY OWNED • DAT BIH GAH</span>
+            <span>$DATBIHGAH • OFFICIAL SOLANA TOKEN • DEV IS IN THE VIDEO • 100% COMMUNITY OWNED • DAT BIH GAH</span>
+            <span>$DATBIHGAH • OFFICIAL SOLANA TOKEN • DEV IS IN THE VIDEO • 100% COMMUNITY OWNED • DAT BIH GAH</span>
           </div>
         </div>
       </div>
@@ -153,7 +153,7 @@ export default function App() {
                 DAT BIH GAH <span className="text-red-500 text-glow">🔥</span>
               </span>
               <span className="font-mono text-[9px] text-zinc-500 uppercase tracking-widest mt-0.5 block font-bold">
-                $DBG SOLANA OFFICIAL
+                $DATBIHGAH SOLANA OFFICIAL
               </span>
             </div>
           </div>
@@ -201,7 +201,7 @@ export default function App() {
               </div>
 
               <h1 className="font-display font-black text-4xl sm:text-5xl md:text-6xl leading-tight uppercase tracking-tight text-white">
-                THE ORIGINAL <span className="text-red-500 text-glow">"DAT BIH GAH"</span> REVOLUTION on Solana!
+                THE ORIGINAL <span className="text-red-500 text-glow">DAT BIH GAH</span> COIN ON SOLANA
               </h1>
 
               <p className="font-sans text-sm md:text-base text-slate-300 leading-relaxed">
@@ -230,7 +230,7 @@ export default function App() {
               <div className="bg-black/80 border border-red-500/20 rounded-2xl p-4 md:p-5 relative md:max-w-2xl">
                 <div className="flex items-center justify-between gap-2 mb-2">
                   <span className="text-[9px] font-mono text-zinc-500 uppercase tracking-widest font-black flex items-center gap-1.5">
-                    <ShieldCheck className="w-3.5 h-3.5 text-red-500" /> OFFICIAL $DBG CONTRACT ADDRESS:
+                    <ShieldCheck className="w-3.5 h-3.5 text-red-500" /> OFFICIAL $DATBIHGAH CONTRACT ADDRESS:
                   </span>
                   <span className="text-[9px] font-mono text-emerald-400 font-bold bg-emerald-950/20 px-1.5 py-0.5 rounded">
                     VERIFIED SAFE
@@ -409,7 +409,7 @@ export default function App() {
                     
                     <div className="absolute bottom-4 left-4 right-4 text-left">
                       <span className="bg-red-600 text-white font-mono text-[9px] font-black px-2 py-0.5 rounded uppercase tracking-wider">
-                        $DBG OFFICIAL ART
+                        $DATBIHGAH OFFICIAL ART
                       </span>
                     </div>
                   </div>
@@ -489,7 +489,7 @@ export default function App() {
               </span>
             </div>
             <p className="font-sans text-[10px] text-zinc-500 leading-normal max-w-xs uppercase font-semibold">
-              $DBG — The official Solana memecoin based on the TikTok sensation. Created and held directly by the video star.
+              $DATBIHGAH — The official Solana memecoin based on the TikTok sensation. Created and held directly by the video star.
             </p>
           </div>
 
@@ -502,7 +502,7 @@ export default function App() {
 
           <div className="max-w-xs text-right md:text-left">
             <p className="font-sans text-[9px] text-zinc-600 leading-relaxed uppercase">
-              $DBG is purely an entertainment joke token. No expectation of financial return. Cryptocurrencies are highly volatile. Invest content safely.
+              $DATBIHGAH is purely an entertainment joke token. No expectation of financial return. Cryptocurrencies are highly volatile. Invest content safely.
             </p>
           </div>
 

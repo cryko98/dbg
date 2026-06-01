@@ -27,14 +27,14 @@ export default function DexscreenerWidget({ contractAddress }: DexscreenerWidget
             <div>
               <div className="flex items-center gap-2">
                 <span className="font-display font-black text-white text-base">
-                  $DBG / SOL
+                  $DATBIHGAH / SOL
                 </span>
                 <span className="px-1.5 py-0.5 rounded bg-red-950/40 text-red-500 font-mono text-[9px] uppercase font-semibold">
                   {isDefaultCA ? "DEMO CHART SCREENER" : "LIVE DEXSCREENER FEED"}
                 </span>
               </div>
               <p className="font-mono text-xs text-red-400 font-bold mt-0.5">
-                {isDefaultCA ? "Showing SOL/USDC (Replace CA to load $DBG)" : "Live Token Pool Chart"}
+                {isDefaultCA ? "Showing SOL/USDC (Replace CA to load $DATBIHGAH)" : "Live Token Pool Chart"}
               </p>
             </div>
           </div>

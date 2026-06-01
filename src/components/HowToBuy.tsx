@@ -46,7 +46,7 @@ export default function HowToBuy() {
     {
       num: "04",
       icon: ArrowRightLeft,
-      title: "SWAP FOR $DBG (DAT BIH GAH)",
+      title: "SWAP FOR $DATBIHGAH",
       desc: "Input our official contract address (CA) listed below into the search bar. Set your slippage preference, enter the SOL amount you want to swap, and click BUY!",
     },
   ];
