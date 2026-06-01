@@ -1,0 +1,6 @@
+{
+  "name": "Dat Bih Gah",
+  "description": "The official Dat Bih Gah Solana Memecoin launched directly by the dev from the viral TikTok trend!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
