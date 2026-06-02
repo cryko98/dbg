@@ -34,11 +34,21 @@ export default function DexscreenerWidget({ contractAddress }: DexscreenerWidget
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
-            <span className="w-2 h-2 bg-green-500 rounded-full animate-ping" />
-            <span className="text-[10px] font-mono text-slate-400 uppercase tracking-widest font-bold">
-              Real-time feed
-            </span>
+          <div className="flex items-center gap-3">
+            <a 
+              href={`https://dexscreener.com/solana/${contractAddress}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-red-600 hover:bg-red-500 text-white font-mono text-[10px] uppercase font-bold tracking-wider transition-all hover:scale-105 shadow-[0_0_15px_rgba(239,68,68,0.2)]"
+            >
+              Open on DexScreener
+            </a>
+            <div className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-green-500 rounded-full animate-ping" />
+              <span className="text-[10px] font-mono text-slate-400 uppercase tracking-widest font-bold">
+                Real-time feed
+              </span>
+            </div>
           </div>
         </div>
 
@@ -47,10 +57,9 @@ export default function DexscreenerWidget({ contractAddress }: DexscreenerWidget
           <div className="w-full h-[450px] md:h-[500px]">
             <iframe 
               src={embedUrl}
-              className="w-full h-full border-0 rounded-xl"
+              className="w-full h-full border-0 rounded-xl bg-black"
               title="DexScreener Chart Feed"
               allow="clipboard-write"
-              referrerPolicy="no-referrer"
             />
           </div>
         </div>

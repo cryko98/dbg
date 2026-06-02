@@ -201,7 +201,7 @@ export default function App() {
               </div>
 
               <h1 className="font-display font-black text-4xl sm:text-5xl md:text-6xl leading-tight uppercase tracking-tight text-white">
-                THE ORIGINAL <span className="text-red-500 text-glow">DAT BIH GAH</span> COIN ON SOLANA
+                THE OFFICIAL <span className="text-red-500 text-glow">DAT BIH GAH</span> COIN ON SOLANA
               </h1>
 
               <p className="font-sans text-sm md:text-base text-slate-300 leading-relaxed">
