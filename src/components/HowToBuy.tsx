@@ -12,7 +12,7 @@ interface Step {
 
 export default function HowToBuy() {
   const [copied, setCopied] = useState(false);
-  const contractAddress = "xxxxxxxxxxxxxxxxxxxxxxxxx";
+  const contractAddress = "DMU6LRnRBV7URLdpCYadHNKxXxyf4MRkdqSqC2tkpump";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(contractAddress);

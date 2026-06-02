@@ -59,7 +59,7 @@ function IPhoneFrame({ videoId, author, title }: { videoId: string; author?: str
 export default function App() {
   const [copied, setCopied] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const contractAddress = "xxxxxxxxxxxxxxxxxxxxxxxxx";
+  const contractAddress = "DMU6LRnRBV7URLdpCYadHNKxXxyf4MRkdqSqC2tkpump";
 
   const logoUrl = "https://berjrozgwqoqpeqozceu.supabase.co/storage/v1/object/public/werld/loooo.jpg";
   const promoImageUrl = "https://berjrozgwqoqpeqozceu.supabase.co/storage/v1/object/public/werld/bsnnnnn.jpg";
@@ -333,9 +333,6 @@ export default function App() {
                 <h2 className="font-display font-black text-2xl md:text-3xl uppercase tracking-wider text-white">
                   DAT BIH GAH VIRAL ARMY
                 </h2>
-                <p className="text-xs text-slate-400 mt-1">
-                  The entire globe is responding to the call! Here are the prime-time creator responses in clean, English-localized streams inside customized frames.
-                </p>
               </div>
 
               {/* Grid of 4 iPhones */}

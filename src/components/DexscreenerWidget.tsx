@@ -6,12 +6,7 @@ interface DexscreenerWidgetProps {
 }
 
 export default function DexscreenerWidget({ contractAddress }: DexscreenerWidgetProps) {
-  const isDefaultCA = contractAddress === "xxxxxxxxxxxxxxxxxxxxxxxxx";
-  
-  // Custom benchmark Solana/USDC chart on Raydium as placeholder, or user's custom CA if they put one
-  const embedUrl = isDefaultCA 
-    ? "https://dexscreener.com/solana/8s5u7Gv99DeT3NqUHKN3XzScdS8S56R39e9pUcYx1A1?embed=1&theme=dark&trades=1&info=0"
-    : `https://dexscreener.com/solana/${contractAddress}?embed=1&theme=dark&trades=1&info=0`;
+  const embedUrl = `https://dexscreener.com/solana/${contractAddress}?embed=1&theme=dark&trades=1&info=0`;
 
   return (
     <div className="relative p-1 rounded-3xl bg-gradient-to-br from-red-600/30 to-black/40 border border-white/5">
@@ -29,12 +24,12 @@ export default function DexscreenerWidget({ contractAddress }: DexscreenerWidget
                 <span className="font-display font-black text-white text-base">
                   $DATBIHGAH / SOL
                 </span>
-                <span className="px-1.5 py-0.5 rounded bg-red-950/40 text-red-500 font-mono text-[9px] uppercase font-semibold">
-                  {isDefaultCA ? "DEMO CHART SCREENER" : "LIVE DEXSCREENER FEED"}
+                <span className="px-1.5 py-0.5 rounded bg-red-950/40 text-red-500 font-mono text-[9px] uppercase font-semibold animate-pulse">
+                  LIVE DEXSCREENER FEED
                 </span>
               </div>
               <p className="font-mono text-xs text-red-400 font-bold mt-0.5">
-                {isDefaultCA ? "Showing SOL/USDC (Replace CA to load $DATBIHGAH)" : "Live Token Pool Chart"}
+                Live Token Pool Chart Tracker
               </p>
             </div>
           </div>
@@ -59,16 +54,6 @@ export default function DexscreenerWidget({ contractAddress }: DexscreenerWidget
             />
           </div>
         </div>
-
-        {/* Informative notice explaining that they can add CA later */}
-        {isDefaultCA && (
-          <div className="mt-4 p-3 bg-red-950/20 border border-red-900/30 rounded-xl flex items-start gap-2.5">
-            <Shield className="w-4 h-4 text-red-400 shrink-0 mt-0.5" />
-            <p className="text-[10px] font-mono text-slate-300 leading-normal">
-              <b>PRO TIP:</b> When your coin launches on Solana, replace the placeholder contract address with your real token pool ID or mint address inside <code>App.tsx</code> to lock in the true $DBG tracker!
-            </p>
-          </div>
-        )}
       </div>
     </div>
   );
