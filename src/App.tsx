@@ -17,7 +17,6 @@ import {
   Image as ImageIcon
 } from "lucide-react";
 import SmokeEffect from "./components/SmokeEffect";
-import DexscreenerWidget from "./components/DexscreenerWidget";
 import HowToBuy from "./components/HowToBuy";
 
 // Mini iPhone Frame Component for highly responsive video streams
@@ -174,10 +173,10 @@ export default function App() {
             </a>
 
             <a 
-              href="#chart-section" 
+              href="#how-to-buy-section" 
               className="bg-white text-black px-5 py-1.5 rounded-full font-bold text-xs hover:bg-red-500 hover:text-white transition-all transform hover:scale-105 duration-200"
             >
-              REAL CHART
+              HOW TO SWAP
             </a>
           </div>
         </div>
@@ -262,18 +261,10 @@ export default function App() {
               {/* Quick links header action buttons */}
               <div className="flex flex-wrap gap-4 pt-2">
                 <a 
-                  href={`https://pump.fun/coin/${contractAddress}`}
-                  target="_blank"
-                  referrerPolicy="no-referrer"
+                  href="#how-to-buy-section"
                   className="px-6 py-3 bg-red-600 text-white font-display font-bold rounded-xl text-xs uppercase tracking-wider hover:bg-red-500 transition-all transform hover:scale-105 duration-200 shadow-[0_0_20px_rgba(239,68,68,0.3)]"
                 >
-                  BUY ON PUMP.FUN
-                </a>
-                <a 
-                  href="#chart-section"
-                  className="px-6 py-3 bg-[#0d0d12] border border-white/10 text-white font-display font-medium rounded-xl text-xs uppercase hover:bg-zinc-800 transition-all"
-                >
-                  VIEW DEX CHART
+                  HOW TO SWAP
                 </a>
               </div>
             </div>
@@ -350,20 +341,7 @@ export default function App() {
             </div>
           </section>
 
-          {/* SECTION 1: Real DexScreener Chart (Full width widget container) */}
-          <section id="chart-section" className="pt-8 border-t border-white/5">
-            <div className="w-full space-y-4">
-              <div className="text-left">
-                <h2 className="font-display font-black text-2xl md:text-3xl uppercase tracking-wider text-white">
-                  REAL-TIME DEX CHART
-                </h2>
-                <p className="text-xs text-slate-400 mt-1 max-w-xl">
-                  Watch live buys and path tracking. When contract update occurs, the embed transitions instantly to reveal true pump.fun curve pools.
-                </p>
-              </div>
-              <DexscreenerWidget contractAddress={contractAddress} />
-            </div>
-          </section>
+          {/* Chart section removed */}
 
           {/* PROMOTIONAL SHOWCASE SECTION: Displaying bsnnnnn.jpg professionally */}
           <section className="pt-8 border-t border-white/5">
@@ -437,19 +415,11 @@ export default function App() {
             </div>
 
             <div className="flex gap-4 shrink-0 w-full md:w-auto z-10">
-              <a 
-                href={`https://pump.fun/coin/${contractAddress}`}
-                target="_blank"
-                referrerPolicy="no-referrer"
-                className="w-full md:w-auto text-center px-6 py-3.5 bg-white text-black font-display font-bold rounded-xl text-xs uppercase tracking-wider hover:bg-black hover:text-white transition-all transform hover:scale-105 duration-200"
-              >
-                SWAP ON PUMP.FUN
-              </a>
               <button 
                 onClick={handleCopyCA}
-                className="w-full md:w-auto px-6 py-3.5 bg-black/30 border border-white/20 text-white font-display font-bold rounded-xl text-xs uppercase tracking-wider hover:bg-white hover:text-black transition-all cursor-pointer"
+                className="w-full md:w-auto px-8 py-3.5 bg-white text-black font-display font-bold rounded-xl text-xs uppercase tracking-wider hover:bg-black hover:text-white transition-all cursor-pointer shadow-[0_0_20px_rgba(255,255,255,0.1)]"
               >
-                {copied ? "COPIED CA" : "COPY CONTRACT"}
+                {copied ? "COPIED CONTRACT ADDRESS!" : "COPY CONTRACT ADDRESS"}
               </button>
             </div>
           </div>
@@ -510,8 +480,6 @@ export default function App() {
             © 2026 DAT BIH GAH CORPS. THE REAL ORIGINAL.
           </span>
           <div className="flex items-center gap-4 text-[9px] font-mono text-zinc-500 uppercase">
-            <a href="#chart-section" className="hover:text-red-500 transition-colors">Dex Chart</a>
-            <span>•</span>
             <a href="#how-to-buy-section" className="hover:text-red-500 transition-colors">How to Swap</a>
           </div>
         </div>
